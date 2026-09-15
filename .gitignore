@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local settings and secrets
+.env
+.env.*
+.vscode/
+.idea/
+
+# Temporary analysis and locally installed packages
+work/
+
+# Generated logs and internal documents
+outputs/logs/
+outputs/meeting_minutes/
+outputs/*팀원공유용*.zip
+
+# SGIS boundary originals exceed GitHub's regular file-size limit.
+# Download the archive again using the source link in README.md.
+data_raw/boundary/sgis_administrative_boundaries_2025.zip
+data_raw/boundary/extracted/
+
+# Operating-system and office temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*

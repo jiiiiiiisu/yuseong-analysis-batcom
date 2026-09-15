@@ -1,0 +1,9 @@
+﻿dataset,file_name,relative_path,encoding,rows,columns,duplicate_rows,total_missing_cells,coordinate_columns,coordinate_ranges,address_columns,admin_columns,date_columns,status,notes
+CCTV,01_cctv_national_standard_yuseong.csv,data_raw\01_cctv\01_cctv_national_standard_yuseong.csv,cp949,580,18,0,580,WGS84위도 | WGS84경도,WGS84위도=36.23112884..36.494204 | WGS84경도=127.1832386..127.4110651,소재지도로명주소 | 소재지지번주소,,데이터기준일자,inspected,
+가로등,02_streetlights.csv,data_raw\02_streetlights\02_streetlights.csv,cp949,43082,16,0,0,위도 | 경도,위도=36.24880338..36.48316307 | 경도=127.258382..127.4777728,,,,inspected,
+버스정류장,03_bus_stops.csv,data_raw\03_bus_stops\03_bus_stops.csv,cp949,227065,9,0,24152,위도 | 경도,위도=33.208351..127.29524 | 경도=33.265967..130.9155361,,도시명 | 관리도시명,정보수집일,inspected,
+비상벨,04_emergency_bells_by_dong.csv,data_raw\04_emergency_bells\04_emergency_bells_by_dong.csv,cp949,61,12,0,0,,,,시군구코드 | 시군구이름 | 행정동코드 | 행정동이름 | 법정동코드 | 법정동이름,기준년도,inspected,
+교통사고,05_traffic_accidents.csv,data_raw\05_traffic_accidents\05_traffic_accidents.csv,cp949,9579,21,0,0,위도 | 경도,위도=953936.0..992534.0 | 경도=1807128.0..1952044.0,,시군구코드 | 시군구이름 | 행정동코드 | 행정동이름 | 법정동코드 | 법정동이름,발생일시 | 기준일자,inspected,
+유동인구,06_floating_population_by_dong.zip,data_raw\06_floating_population\06_floating_population_by_dong.zip,cp949 (12 CSV),156,3,0,0,,,,행정동,월,inspected,ZIP 내부 월별 CSV 12개 통합 점검
+성·연령별 주민등록 인구,07_population_sex_age_by_dong.csv,data_raw\07_population\07_population_sex_age_by_dong.csv,cp949,41182,12,0,190,,,,시군구코드 | 시군구이름 | 행정동코드 | 행정동이름,기준년월 | 전입년도,inspected,
+경찰기관,08_police_stations.csv,data_raw\08_police_stations\08_police_stations.csv,cp949,10,10,0,0,X좌표 | Y좌표 | 위도 | 경도,X좌표=338775.0..346928.0 | Y좌표=411218.0..426767.0 | 위도=127.3160495..127.4061384 | 경도=36.29955881..36.44005953,주소,행정동명,기준년도 | 자료기준일자,needs_review,"원본 위도=경도값(127.x), 경도=위도값(36.x)으로 의미가 뒤바뀜"

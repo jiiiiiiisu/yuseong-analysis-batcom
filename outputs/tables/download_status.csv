@@ -1,0 +1,9 @@
+﻿dataset,expected_file,exists,size_bytes,status,source_url,notes
+CCTV,data_raw\01_cctv\01_cctv_national_standard_yuseong.csv,True,108802,downloaded,https://www.data.go.kr/data/15013094/standard.do,
+가로등,data_raw\02_streetlights\02_streetlights.csv,True,4951514,downloaded,https://www.data.go.kr/data/15110054/fileData.do,
+버스정류장,data_raw\03_bus_stops\03_bus_stops.csv,True,20735435,downloaded,https://www.data.go.kr/data/15067528/fileData.do,
+비상벨,data_raw\04_emergency_bells\04_emergency_bells_by_dong.csv,True,7318,downloaded,https://www.data.go.kr/data/15111172/fileData.do,
+교통사고,data_raw\05_traffic_accidents\05_traffic_accidents.csv,True,1892450,downloaded,https://www.data.go.kr/data/15108925/fileData.do,
+유동인구,data_raw\06_floating_population\06_floating_population_by_dong.zip,True,4813,downloaded,https://www.data.go.kr/data/15139377/fileData.do,
+성·연령별 주민등록 인구,data_raw\07_population\07_population_sex_age_by_dong.csv,True,3519785,downloaded,https://www.data.go.kr/data/15108898/fileData.do,
+경찰기관,data_raw\08_police_stations\08_police_stations.csv,True,1340,downloaded,https://www.data.go.kr/data/15154551/fileData.do,

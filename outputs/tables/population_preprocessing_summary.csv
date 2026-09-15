@@ -1,0 +1,4 @@
+﻿dataset,original_rows,filtered_rows,output_file,status,notes
+비상벨,61,13,data_clean\04_emergency_bells_by_dong_clean.csv,completed,"행정동별 합계 및 인구 1,000명당 비상벨 수"
+유동인구,156,13,data_clean\06_floating_population_by_dong_summary.csv,completed,2023년 12개월·13개 행정동 일평균 자료 통합; 시간대 자료 없음
+성·연령별 주민등록 인구,41182,13,data_clean\07_population_by_dong_summary.csv,completed,최신 기준월 2022-01; 여성 및 65세 이상 지표
