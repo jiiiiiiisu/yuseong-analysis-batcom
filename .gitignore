@@ -30,3 +30,11 @@ data_raw/boundary/extracted/
 Thumbs.db
 Desktop.ini
 ~$*
+
+# Fine-grained Yuseong-gu floating-population originals are not public.
+**/yuseonggu_night_population_*.parquet
+**/yuseonggu_50m_grid_master.gpkg
+**/유성구_유동인구_*/
+*.key
+secrets.*
+config.local.*

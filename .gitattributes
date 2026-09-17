@@ -1,0 +1,7 @@
+*.csv binary
+*.json text
+*.geojson text
+*.md text
+*.py text
+*.zip binary
+*.png binary
